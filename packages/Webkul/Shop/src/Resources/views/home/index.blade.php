@@ -46,6 +46,7 @@
         @include('shop::home.slider', ['sliderData' => $sliderData])
         @include('shop::home.featured-products')
         @include('shop::home.new-products')
+        
     @endif
 
     {{ view_render_event('bagisto.shop.home.content.after') }}
